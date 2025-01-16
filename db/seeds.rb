@@ -8,6 +8,10 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-require 'faker'
 
-p Faker::Name.name
+contact4 = EmergencyContact.new(first_name: "Karla", last_name: "Simeone", relation: "Friend", phone_number: 5763492233)
+contact4.save
+
+# require 'faker'
+
+# p Faker::Name.name
